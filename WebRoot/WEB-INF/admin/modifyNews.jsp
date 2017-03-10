@@ -40,6 +40,7 @@
                                 <option value="3333" <c:if test="${data.category=='3333'}">selected</c:if> >新闻</option>
                                 <option value="5555" <c:if test="${data.category=='5555'}">selected</c:if>>链接</option>
                                 <option value="5000" <c:if test="${data.category=='5000'}">selected</c:if>>组内活动</option>
+                                <option value="6000" <c:if test="${data.category=='6000'}">selected</c:if>>文献学习</option>
                             </select>
                             <input type="text" name="id" value="${data.id}" class="input-xlarge hidden">
                             </div>

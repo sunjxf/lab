@@ -131,7 +131,6 @@ public class NewsAction {
     public String showModifyNews(News news, HttpServletRequest request){
 
         news=newsService.selectById(news);
-        System.out.println("------------------"+news);
         request.setAttribute("data", news);
         return "forward:/WEB-INF/admin/modifyNews.jsp";
     }

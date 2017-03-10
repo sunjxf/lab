@@ -52,9 +52,12 @@
                             <td width="10%">${item.name}</td>
                             <td width="40%">${item.img}</td>
                             <td width="10%">
-                                <c:if test="${item.category=='1'}">导师</c:if>
-                                <c:if test="${item.category=='2'}">博士</c:if>
-                                <c:if test="${item.category=='3'}">硕士</c:if>
+                                <c:if test="${item.category=='1'}">课题组负责人</c:if>
+                                <c:if test="${item.category=='2'}">教师</c:if>
+                                <c:if test="${item.category=='3'}">博士后</c:if>
+                                <c:if test="${item.category=='4'}">博士</c:if>
+                                <c:if test="${item.category=='5'}">硕士</c:if>
+                                <c:if test="${item.category=='6'}">已毕业博/硕士</c:if>
                             </td>
                             <td width="20%">${item.email}</td>
                             <td>

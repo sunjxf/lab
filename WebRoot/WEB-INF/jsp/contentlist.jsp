@@ -37,6 +37,7 @@
 
          <ul class="newslb">
              <li class='zwbt' ></li>
+             ${msg}
              <c:forEach items="${news}" var="item">
              <li style='margin-bottom:8px;background-image:none;height:auto'><a href="${proPath}/showcontent.action?id=${item.id}"><p>${item.title}</p></a></li>
              <li class='zwbt'  style='border-bottom:#09F dotted 1px;'></li>

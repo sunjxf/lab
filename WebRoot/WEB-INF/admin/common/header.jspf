@@ -99,6 +99,7 @@
     <a href="${proPath}/goURL/admin/addNews.action" class="nav-header"><i class="icon-question-sign"></i>添加内容</a>
     <a href="${proPath}/news/showNews.action?category=3333" class="nav-header"><i class="icon-comment"></i>新闻管理</a>
     <a href="${proPath}/news/showNews.action?category=5000" class="nav-header"><i class="icon-legal"></i>组内活动</a>
+    <a href="${proPath}/news/showNews.action?category=6000" class="nav-header"><i class="icon-legal"></i>组内活动</a>
     <a href="${proPath}/news/showNews.action?category=5555" class="nav-header"><i class="icon-link"></i>友情链接</a>
     <a href="${proPath}/publication/showPublication.action" class="nav-header"><i class="icon-exclamation-sign"></i>论文管理
     </a>

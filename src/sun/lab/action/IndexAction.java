@@ -122,6 +122,11 @@ public class IndexAction {
 
     @RequestMapping(value = "/contentlist")
     public String contentlist(Page<News> page, HttpServletRequest request) {
+        Home h = homeService.select(new Home());
+        List<Menu> m = menuService.selectByEnable();
+        request.setAttribute("menu", m);
+        request.setAttribute("setting", h);
+
         int pageIndex = 1;
         int pageSize = 2;
         int totalPage = 0;
@@ -155,10 +160,6 @@ public class IndexAction {
         request.setAttribute("news", news);
         request.setAttribute("page", page);
 
-        Home h = homeService.select(new Home());
-        List<Menu> m = menuService.selectByEnable();
-        request.setAttribute("menu", m);
-        request.setAttribute("setting", h);
         return "forward:/WEB-INF/jsp/contentlist.jsp";
     }
 

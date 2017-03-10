@@ -39,6 +39,7 @@
                                 <option value="3333">新闻</option>
                                 <option value="5555">链接</option>
                                 <option value="5000">组内活动</option>
+                                <option value="6000">文献学习</option>
                             </select>
 
                             </div>

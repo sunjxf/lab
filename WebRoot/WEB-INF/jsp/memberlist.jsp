@@ -36,9 +36,13 @@
             <c:forEach var="c" items="${cg}">
                 <div class="cytitle">
                     <strong>
-                        <c:if test="${c=='1'}">导师</c:if>
-                        <c:if test="${c=='2'}">博士</c:if>
-                        <c:if test="${c=='3'}">硕士</c:if>
+                        <c:if test="${c=='1'}">课题组负责人</c:if>
+                        <c:if test="${c=='2'}">教师</c:if>
+                        <c:if test="${c=='3'}">博士后</c:if>
+                        <c:if test="${c=='4'}">博士</c:if>
+                        <c:if test="${c=='5'}">硕士</c:if>
+                        <c:if test="${c=='6'}">已毕业博/硕士</c:if>
+
                     </strong>
                 </div>
 

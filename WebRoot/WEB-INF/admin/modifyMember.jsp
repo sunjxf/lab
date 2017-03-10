@@ -33,16 +33,19 @@
                             </div><br><div class="form-inline">
                         <label>类别</label>
                             <select name="category">
-                                <option value="1" <c:if test="${mem.category=='1'}">selected</c:if>>导师</option>
-                                <option value="2" <c:if test="${mem.category=='2'}">selected</c:if>>博士</option>
-                                <option value="3" <c:if test="${mem.category=='3'}">selected</c:if>>硕士</option>
+                                <option value="1" <c:if test="${mem.category=='1'}">selected</c:if>>课题组负责人</option>
+                                <option value="2" <c:if test="${mem.category=='2'}">selected</c:if>>教师</option>
+                                <option value="3" <c:if test="${mem.category=='3'}">selected</c:if>>博士后</option>
+                                <option value="4" <c:if test="${mem.category=='4'}">selected</c:if>>博士</option>
+                                <option value="5" <c:if test="${mem.category=='5'}">selected</c:if>>硕士</option>
+                                <option value="6" <c:if test="${mem.category=='6'}">selected</c:if>>已毕业博/硕士</option>
                             </select></div><br><div class="form-inline">
                             <label>头像</label>
                             <input type="text" name="img" value="${mem.img}" class="input-xlarge">(请上传头像图片)</div>
                             <iframe src="${proPath}/goURL/jsp/upload.action" width="480px" height="70px" frameborder="0" ></iframe>
                             <label>教育背景</label>
                             <textarea type="text" name="education" class="input-xlarge" rows="3" style="margin: 0px; width: 480px; height: 100px;">${mem.education}</textarea>
-                            <label>工作经验</label>
+                            <label>工作经历</label>
                             <textarea type="text" name="workExperience" class="input-xlarge" rows="3" style="margin: 0px; width: 480px; height: 100px;">${mem.workExperience}</textarea>
                             <label>研究兴趣</label>
                             <textarea type="text" name="researchInterest" class="input-xlarge" rows="3" style="margin: 0px; width: 480px; height: 100px;">${mem.researchInterest}</textarea>
